@@ -1,0 +1,48 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Model
+{
+    public class Slab
+    {
+        public void Slab();
+    
+        string SlabNumber 
+        {
+            get;
+            set;
+        }
+        double SlabWeight 
+        {
+            get;
+            set;
+        }
+        double SlabLength 
+        {
+            get;
+            set;
+        }
+        double SlabWidth 
+        {
+            get;
+            set;
+        }
+        double SlabThick 
+        {
+            get;
+            set;
+        }
+
+        public void PositionX(double x); // Координата сляба по оси х
+        {
+        Position = new Position(x);
+        }
+        public void PositionY(double y); // Координата сляба по оси y
+        {
+        Position = new Position(y);
+        }
+    }
+}
